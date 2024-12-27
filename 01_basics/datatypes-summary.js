@@ -32,4 +32,26 @@ console.log(typeof myFunction)
 console.log(typeof myobj)
 console.log(typeof heroes)
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++
+//Stack(Primitive),Heap(Non-primitive)
 
+
+// in stack,call by value is used(copy of variable has been passed)
+// in heap,call by reference is used(original address has been pass)
+let myyoutubeName = "jiya24089"
+let anotherName = myyoutubeName
+anotherName="spritualShorts"
+
+console.log(myyoutubeName)
+console.log(anotherName)
+
+let userOne={
+    email:"jiya45@gmail.com",
+    upi:"jiya123@ipn"
+}
+ let userTwo=userOne;
+ console.log(userTwo)
+
+ userTwo.email="jiya@123"
+ console.log(userOne.email)
+ console.log(userTwo.email)
