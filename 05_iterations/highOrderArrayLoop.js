@@ -27,3 +27,16 @@ map.set('IN ',"INDIA")
 for(const [key,value] of map){
     console.log(key,':-',value)
 }
+
+const myobj={
+    'game1':'nfs',
+    'game2':'spiderman'
+
+}
+for (const [key,value] of myobj) {
+    console.log(key,':-',value);
+    
+    
+}
+
+//for of loop is not used in object because object is not iterable......
